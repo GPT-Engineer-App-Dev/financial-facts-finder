@@ -19,13 +19,13 @@ const Index = () => {
       </Flex>
 
       {/* Main Headline Section */}
-      <Box bg="gray.100" p={10} textAlign="center">
+      <Box bg="#f3f2ef" p={10} textAlign="center">
         <Heading size="2xl" mb={4}>Main Headline: Financial Markets Today</Heading>
         <Text fontSize="lg">Stay updated with the latest trends and insights in the financial world.</Text>
       </Box>
 
       {/* Featured Articles Section */}
-      <VStack spacing={8} p={10} align="start">
+      <VStack spacing={8} p={10} align="start" bg="#f3f2ef">
         <Heading size="lg">Featured Articles</Heading>
         <Flex direction={{ base: "column", md: "row" }} spacing={8}>
           <Box flex="1" p={4} bg="white" boxShadow="md">
